@@ -72,7 +72,7 @@ button {
   color: red;
 }
 
-input[type=text], input[type=date] {
+input[type=text], input[type=date], select[name="priority"]  {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -102,3 +102,15 @@ form {
   width: 50%;
   margin: auto;
 }
+
+.priorityButton {
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 4px 12px;  
+  font-size: 0.8em;
+  margin-top: 8px;
+  min-width: 60px;    
+}
+
+
